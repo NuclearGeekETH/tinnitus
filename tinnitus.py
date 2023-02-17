@@ -22,5 +22,5 @@ def reverse_phase_tone(frequency, duration, sample_rate):
 wave = reverse_phase_tone(frequency, duration, sample_rate)
 # sd.play(wave)
 # sd.wait()
-sf.write('test_tone.wav', wave, sample_rate)
+sf.write('nuke_18500.wav', wave, sample_rate)
 
